@@ -14,18 +14,20 @@ related: []
 
 ## Headline
 
-Two or three sentences for the COO.
+Two or three sentences for the COO: the biggest calls this week.
 
-## By channel
+Each section below is a lever block per [[reporting-format]] (Saw / Did / Expected / Happened / Call). Skip levers with no movement.
 
-For each channel: what is working, what is not, what we are doing about it.
+## 1. Mix, channels
 
-## Tests
+## 2. Creative (live and in test)
 
-Concluded this week (verdicts) and launching next week.
+## 3. Day parting
 
-## Budget moves
+## 4. Pulse
 
-Links to [[decision-log]] entries made this week.
+## 5. State levers
 
-## Risks and asks
+## Watch list
+
+- [thing, owner (role), decision date]

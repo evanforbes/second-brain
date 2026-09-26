@@ -26,6 +26,10 @@ Check which connectors are actually available in this session. **Skip any that a
 - Test status changes. Offer to update the matching `tests/` note.
 - Anything that contradicts what the vault already believes, with a link to the note it contradicts.
 
+## Mix block
+
+Mix is a daily lever. End the daily note with a **Mix, channels** lever block (Saw / Did / Expected / Happened / Call) per [[reporting-format]], plus any Pulse or State lever that moved today.
+
 ## Output rules
 
 - One file per day. **A same-day re-run merges into and improves that file; never create a second one.** This is the only permitted edit to an existing daily note. Once the day is over, it is append-only.

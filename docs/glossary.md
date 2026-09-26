@@ -35,6 +35,14 @@ Every acronym, internal tool name, and piece of shorthand used in this vault, pl
 | Payback | Time for a cohort's value to recover its acquisition cost. Secondary for now |
 | NGR / GGR | Net / gross gaming revenue |
 | D7, D28, D90, D365 | Cohort value windows, measured from the FTD date |
+| Lever block | Saw / Did / Expected / Happened / Call: the standard reporting unit. See [[reporting-format]] |
+| MAINTAIN / CHANGE | The only two allowed Calls in a lever block |
+| Mix | Lever 1: budget allocation across channels (daily) |
+| Day parting | Lever 3: scheduling spend by hour or day of week |
+| Island games | *Open: ask Evan.* Used with the day-parting lever |
+| Pulse | Lever 4: an incremental spend push around an event, slate, or moment; report any post-pulse hangover |
+| State levers | Lever 5: geo weighting, on/off, and reallocation by state |
+| Watch list | Items with an owner (role) and a decision date, ending every report |
 | Incumbent | The current top-performing creative on a channel that a challenger must beat |
 | Challenger | A new creative or concept tested against the incumbent |
 | KYC | Know your customer: identity verification before a user can deposit |

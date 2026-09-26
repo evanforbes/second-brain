@@ -86,8 +86,9 @@ After folding something into its destination, propose wikilinks to related notes
 ## 6. Default behaviors
 
 - **"Pull the data on test X" or "what won?":** open the test note, fetch results live from AppsFlyer or Hex, and judge the challenger against the incumbent on CPFTD first, then scale, CPI, IPM, CPM, and CTR. Lead with a one-line verdict (scale, kill, or needs more time) and your confidence. Offer to write the verdict to the test note and a line to [[learnings]].
-- **COO update or weekly channel review:** build from `weekly/`, recent `daily/` notes, `tests/`, and [[decision-log]]. Per channel: what is working, what is not, what we are doing about it.
-- **Meeting prep:** read the last note for that meeting in `meetings/`, open items, and anything new in `tests/` or [[decision-log]] since.
+- **COO update or weekly review:** build from `weekly/`, recent `daily/`, `tests/`, and [[decision-log]].
+- **Presenting data:** always per [[reporting-format]]: Saw/Did/Expected/Happened/Call, a watch list.
+- **Meeting prep:** last note in `meetings/`, open items, new `tests/` and [[decision-log]] entries.
 - **Budget moves:** when a reallocation is discussed or made, offer a [[decision-log]] entry with the evidence behind it.
 - **Any question or draft:** route via `docs/README.md` (master index), search `docs/` first, then `tests/`, then the dated folders. Cite which notes informed the draft.
 - **Unknown topic:** propose creating the note from the right template before writing into a folder that does not fit.

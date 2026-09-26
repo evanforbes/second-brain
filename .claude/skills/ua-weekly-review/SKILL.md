@@ -17,11 +17,14 @@ Writes `weekly/YYYY-MM-DD-channel-review.md` (week-ending date) from `templates/
 
 ## Structure
 
+Follow [[reporting-format]] exactly.
+
 - **Headline:** two or three sentences the COO can read alone.
-- **By channel**, in priority order (TikTok, Meta, Snapchat, Google, Reddit, Apple Search Ads, Liftoff, Moloco, RZR), for each channel with activity: what is working, what is not, what we are doing about it. Judge on CPFTD first. Skip channels with nothing to report rather than padding.
-- **Tests:** verdicts this week (link each), launches next week.
-- **Budget moves:** link decision-log entries.
-- **Risks and asks.**
+- **Five lever sections,** each made of **Saw / Did / Expected / Happened / Call** blocks: Mix (channels), Creative (live and in test), Day parting, Pulse, State levers. Skip a lever with no movement rather than padding.
+- **Happened** closes the loop on the Expected from prior [[decision-log]] entries and tests whose check-back date fell this week.
+- **Call** is exactly MAINTAIN or CHANGE, plus next week's action.
+- **Watch list:** thing, owner (role), decision date.
+- **Judge on CPFTD first.** Label every number with its layer and window.
 
 ## Rules
 

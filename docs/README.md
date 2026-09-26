@@ -16,6 +16,7 @@ Durable knowledge: the things that outlive any single test. This is the master i
 | Budget moves and the evidence behind them | [budget](budget/README.md) → [[decision-log]] |
 | App store, landing pages, offers | [conversion](conversion/README.md) |
 | Competitors and regulation | [market](market/README.md) |
+| How to present data and answers | [[reporting-format]] |
 | Jargon | [[glossary]] |
 | A specific test | `tests/` |
 | What happened on a day or week, or in a meeting | `daily/`, `weekly/`, `meetings/` |
