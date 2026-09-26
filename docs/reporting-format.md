@@ -32,13 +32,15 @@ Call: [MAINTAIN / CHANGE] - [what we do next week]
 - **Happened:** starts with **yes / no / partial**, then the actual number. If it's too early to tell, write "pending: check [date]."
 - **Call:** exactly **MAINTAIN** or **CHANGE**, then the next action.
 
-## The five levers, and how often each is reported
+## The levers: NFL-season example
+
+These five levers are **how UA is monitored during the NFL season.** They're an example, not a fixed list. Other sports and seasons (NBA, March Madness, the offseason) may weight levers differently or add their own. The **lever block** is the constant.
 
 | # | Lever | Cadence | Saw is typically… | Did is typically… |
 |---|---|---|---|---|
 | 1 | **Mix, channels** | Daily | Channel CPFTD or volume signal | Budget shift between channels, sized |
 | 2 | **Creative (live and in test)** | 1–2× a week | A winner, a fatigue signal, or a test result | Scaled, killed, or launched |
-| 3 | **Day parting** (island games) | As needed | Hour or day-of-week efficiency gap | Schedule change, by channel |
+| 3 | **Day parting** (e.g., around [[glossary]] island games: TNF, MNF) | As needed | Hour or day-of-week efficiency gap | Schedule change, by channel |
 | 4 | **Pulse** (incremental spend pushes) | Event-driven | An event, slate, or moment driving demand | Pulse size, channels, window |
 | 5 | **State levers** | 2× a week | State-level performance, supply, or regulatory change | Geo weighting, on/off, reallocation by state |
 

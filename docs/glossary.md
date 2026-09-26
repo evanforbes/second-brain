@@ -39,7 +39,7 @@ Every acronym, internal tool name, and piece of shorthand used in this vault, pl
 | MAINTAIN / CHANGE | The only two allowed Calls in a lever block |
 | Mix | Lever 1: budget allocation across channels (daily) |
 | Day parting | Lever 3: scheduling spend by hour or day of week |
-| Island games | *Open: ask Evan.* Used with the day-parting lever |
+| Island games | Standalone primetime NFL games, e.g. Thursday Night and Monday Night Football: the only game in that window, so demand concentrates into one slate. A key day-parting and pulse moment |
 | Pulse | Lever 4: an incremental spend push around an event, slate, or moment; report any post-pulse hangover |
 | State levers | Lever 5: geo weighting, on/off, and reallocation by state |
 | Watch list | Items with an owner (role) and a decision date, ending every report |
