@@ -74,6 +74,39 @@ SOURCES = {
             "Ad-campaign-objectives", "Reddit-Ad-Unit-Specifications", "about-campaigns", "Set-up-third-party-measurement"]],
         allow=r"^https://business\.reddithelp\.com/s/article/[A-Za-z0-9_-]+",
         keep=r".", cap=150, render=True, budget=40000, suffix=""),
+    # ---- Search: SEO + AEO (output to raw/search/) ----
+    "google-search": dict(
+        seeds=["https://developers.google.com/search/docs",
+               "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+               "https://developers.google.com/search/docs/appearance/ai-features",
+               "https://developers.google.com/search/docs/essentials/spam-policies",
+               "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+               "https://developers.google.com/search/docs/appearance/structured-data/search-gallery",
+               "https://developers.google.com/search/updates/ranking",
+               "https://developers.google.com/search/blog"],
+        allow=r"^https://developers\.google\.com/search/(docs|updates|blog/202[4-6])",
+        keep=r".", cap=420, render=False, out="raw/search/google-search"),
+    "search-console": dict(
+        seeds=["https://support.google.com/webmasters/answer/9128668?hl=en",
+               "https://support.google.com/webmasters/answer/10268906?hl=en",
+               "https://support.google.com/webmasters/answer/7576553?hl=en"],
+        allow=r"^https://support\.google\.com/webmasters/answer/\d+",
+        keep=r"(?i)search console|performance report|index|crawl|sitemap|core web vitals|AI Overview|AI Mode|rich result",
+        cap=120, render=False, suffix="?hl=en", out="raw/search/search-console"),
+    "bing": dict(
+        seeds=["https://www.bing.com/webmasters/help/webmasters-guidelines-30fba23a",
+               "https://www.bing.com/webmasters/help/help-center-661b2d18"],
+        allow=r"^https://www\.bing\.com/webmasters/help/[a-z0-9-]+",
+        keep=r".", cap=80, render=True, budget=12000, out="raw/search/bing"),
+    "moz": dict(
+        seeds=["https://moz.com/beginners-guide-to-seo"],
+        allow=r"^https://moz\.com/beginners-guide-to-seo",
+        keep=r".", cap=20, render=False, out="raw/search/moz"),
+    "ahrefs": dict(
+        seeds=["https://ahrefs.com/blog/"],
+        allow=r"^https://ahrefs\.com/blog/[a-z0-9-]+/$",
+        url_keep=r"(?i)ai-overview|ai-search|ai-mode|aeo|geo|generative|llm|chatgpt|perplexity|answer-engine|ai-visib|ai-citation|seo-basics|technical-seo|e-e-a-t|eeat|helpful-content|google-algorithm|core-update|search-intent|keyword-research|link-building|on-page|schema|structured-data|zero-click|brand-mention",
+        keep=r".", cap=90, render=False, sitemap=["https://ahrefs.com/blog/sitemap.xml","https://ahrefs.com/blog/post-sitemap.xml","https://ahrefs.com/blog/post-sitemap2.xml"], out="raw/search/ahrefs"),
     "rzr": dict(
         seeds=["https://www.rzr.com/"], allow=r"^https://(www\.)?rzr\.com/", keep=r".", cap=80, render=False),
 }
@@ -125,7 +158,7 @@ def sitemap_urls(sm):
 
 def main(name):
     cfg = SOURCES[name]
-    out = f"raw/channels/{name}"
+    out = cfg.get("out", f"raw/channels/{name}")
     os.makedirs(f"{out}/pages", exist_ok=True)
     old = json.load(open(f"{out}/hashes.json")) if os.path.exists(f"{out}/hashes.json") else {}
     queue = [norm(s, cfg) for s in cfg["seeds"]]

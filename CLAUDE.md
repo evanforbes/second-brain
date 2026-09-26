@@ -10,7 +10,7 @@ If you are Claude reading this, these rules govern every action you take in this
 - Obsidian is the primary reading surface. **Wikilinks** (`[[note-name]]`) are how the graph connects. **Frontmatter** drives the queries.
 - Folder lineup:
   - `tests/`: one note per test (creative, offer, landing-page, app-store, experiment). `backlog/` holds briefed tests not yet live; `_archive/` holds archived ones.
-  - `docs/`: durable knowledge. `channels/`, `creative/`, `measurement/`, `budget/`, `conversion/`, `market/`, plus `glossary.md` and `routines/`.
+  - `docs/`: durable knowledge. `channels/`, `creative/`, `measurement/`, `budget/`, `conversion/`, `market/`, `seo-aeo/`, `glossary.md`, `routines/`.
   - `meetings/`: prep and notes for the COO 1:1, creative sync, team standup, and channel rep calls.
   - `daily/`: daily rollups written by the daily routine.
   - `weekly/`: the weekly channel review owed to the COO.

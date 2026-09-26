@@ -11,6 +11,7 @@ Durable knowledge: the things that outlive any single test. This is the master i
 | Anything AppsFlyer (SKAN, S2S, OneLink, windows) | [measurement/appsflyer](measurement/appsflyer/README.md) |
 | How a platform works, or how to optimize it | [channels](channels/README.md) → the channel's playbook |
 | Can we advertise fantasy or prediction markets on X? | [[ad-policy-matrix]] |
+| SEO, AEO, showing up in AI answers, E-E-A-T | [seo-aeo](seo-aeo/README.md) → [[seo-aeo-fundamentals]], [[aeo-answer-engines]] |
 | What worked before, and why | [[measurement-case-studies]], [[learnings]], [[decision-log]] |
 | Creative testing: how a winner is called | [[creative-testing-method]], [[naming-taxonomy]] |
 | Budget moves and the evidence behind them | [budget](budget/README.md) → [[decision-log]] |
@@ -24,6 +25,7 @@ Durable knowledge: the things that outlive any single test. This is the master i
 ## Sections
 
 - [channels](channels/README.md): 10 playbooks plus the ad policy matrix
+- [seo-aeo](seo-aeo/README.md): SEO and AI-answer visibility, 6 notes
 - [measurement](measurement/README.md): 5 core notes plus the AppsFlyer knowledge base
 - [creative](creative/README.md): testing method, naming, learnings
 - [budget](budget/README.md): allocation, pacing, decision log
@@ -34,4 +36,4 @@ Durable knowledge: the things that outlive any single test. This is the master i
 
 ## Deep sources (local only, gitignored)
 
-`raw/appsflyer/` and `raw/channels/<platform>/` hold the full crawled help centers. The `appsflyer-docs` and `channel-docs` skills search them when a playbook doesn't cover a question. On a new machine, re-crawl with those skills.
+`raw/appsflyer/`, `raw/channels/<platform>/`, and `raw/search/` hold the full crawled help centers. The `appsflyer-docs`, `channel-docs`, and `seo-aeo` skills search them when a playbook doesn't cover a question. On a new machine, re-crawl with those skills.

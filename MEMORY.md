@@ -25,6 +25,7 @@ Rolling log of substantive finished work. Prune past a month.
 
 - 2026-09-26: Vault scaffolded from the bootstrap setup file.
 - 2026-09-26: Crawled 756 AppsFlyer help-center articles to `raw/appsflyer/`; compiled 11 notes plus the `appsflyer-docs` skill.
+- 2026-09-26: Built `docs/seo-aeo/` (6 notes) and the `seo-aeo` skill from Google Search Central, the rater guidelines, Bing, AI-engine crawler docs, and Ahrefs studies (about 500 pages, in `raw/search/`).
 - 2026-09-26: Filed Evan's measurement doc as 5 notes in `docs/measurement/`.
 - 2026-09-26: Crawled 10 ad-platform help centers and policies (about 1,300 pages) to `raw/channels/`; wrote 10 channel playbooks, the ad policy matrix, and the `channel-docs` skill.
 

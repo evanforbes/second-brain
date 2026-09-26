@@ -106,6 +106,38 @@ Every acronym, internal tool name, and piece of shorthand used in this vault, pl
 | Web Performance Measurement | AppsFlyer web measurement product replacing PBA |
 | PBA | People-Based Attribution, AppsFlyer's legacy web measurement |
 
+## Search: SEO and AEO
+
+| Term | Meaning |
+|---|---|
+| SEO | Search engine optimization: visibility in classic search results. See [[seo-aeo-fundamentals]] |
+| AEO / GEO / LLMO | Answer engine / generative engine / LLM optimization: being mentioned and cited in AI answers. Mostly SEO fundamentals plus off-site brand mentions |
+| AI Overviews (AIO) | Google's AI summary above search results |
+| AI Mode | Google's conversational AI search mode; cites largely different URLs than AIO |
+| Query fan-out | AI search issuing several related sub-queries to build one answer |
+| SERP | Search engine results page |
+| E-E-A-T | Experience, Expertise, Authoritativeness, Trust (Trust matters most). From Google's rater guidelines |
+| YMYL | "Your Money or Your Life": topics affecting health, finances, or safety, held to the highest trust bar. Real-money products qualify |
+| QRG | Google's Search Quality Rater Guidelines |
+| Scaled content abuse | Google spam policy: mass-produced pages made to rank, however they're produced |
+| Site reputation abuse | Google spam policy: third-party content on a trusted host to borrow its ranking |
+| Doorway pages | Near-duplicate pages that funnel users to one destination; a spam risk for state pages |
+| Search Console (GSC) | Google's site performance and indexing tool; AI features are counted inside "Web" |
+| Bing Webmaster Tools (BWT) | Bing's equivalent; includes AI Performance (Copilot and Bing AI citations) |
+| IndexNow | A protocol that pings Bing and other engines instantly when URLs change |
+| robots.txt / noindex / nosnippet | Crawl control / index control / snippet control (nosnippet also limits Google AI features) |
+| Google-Extended | robots.txt token for Google AI uses outside Search; doesn't affect Search |
+| OAI-SearchBot / GPTBot / ChatGPT-User | OpenAI's search crawler / training crawler / user-initiated fetches |
+| PerplexityBot / Perplexity-User | Perplexity's search crawler / user-initiated fetches |
+| Claude-SearchBot / Claude-User / ClaudeBot | Anthropic's search / user / training crawlers |
+| Applebot / Applebot-Extended | Apple's search crawler / AI-training control |
+| llms.txt | A proposed Markdown file to guide LLMs; no evidence it's used |
+| Schema / JSON-LD | Structured data for rich results; must match the visible content; not a proven AEO lever |
+| Canonical | The preferred URL among duplicates |
+| Core Web Vitals | Google's page-experience metrics (loading, interactivity, visual stability) |
+| App Links / Universal Links | Android and iOS links that open the app from search; enable AppsFlyer SEO/AEO attribution |
+| AEO prompt panel | A fixed prompt set run monthly across AI engines to track mentions and citations vs. competitors |
+
 ## Channels and buying
 
 | Term | Meaning |
