@@ -4,5 +4,7 @@ How creative gets tested, named, and judged, and what has been learned. Individu
 
 ## Index
 
+- [[creative-testing-method]]: challenger vs. incumbent, test ramp to BAU, scale plus CPI/IPM/CPM/CTR, per-channel mechanics
+
 - [[naming-taxonomy]]: how tests and creatives are named
 - [[learnings]]: one line per concluded test

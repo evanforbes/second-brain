@@ -12,7 +12,7 @@ Durable knowledge: the things that outlive any single test. This is the master i
 | How a platform works, or how to optimize it | [channels](channels/README.md) → the channel's playbook |
 | Can we advertise fantasy or prediction markets on X? | [[ad-policy-matrix]] |
 | What worked before, and why | [[measurement-case-studies]], [[learnings]], [[decision-log]] |
-| Creative method and test naming | [creative](creative/README.md) → [[naming-taxonomy]] |
+| Creative testing: how a winner is called | [[creative-testing-method]], [[naming-taxonomy]] |
 | Budget moves and the evidence behind them | [budget](budget/README.md) → [[decision-log]] |
 | App store, landing pages, offers | [conversion](conversion/README.md) |
 | Competitors and regulation | [market](market/README.md) |

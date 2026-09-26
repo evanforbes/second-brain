@@ -45,6 +45,10 @@ Every acronym, internal tool name, and piece of shorthand used in this vault, pl
 | Watch list | Items with an owner (role) and a decision date, ending every report |
 | Incumbent | The current top-performing creative on a channel that a challenger must beat |
 | Challenger | A new creative or concept tested against the incumbent |
+| Test ramp campaign | A dedicated campaign where challengers get controlled exposure against the incumbent. See [[creative-testing-method]] |
+| BAU | Business-as-usual campaigns: scaled, always-on, where the incumbent lives |
+| Graduation | Moving a ramp winner into BAU alongside the incumbent; it becomes the incumbent once it holds spend share |
+| Concept vs. iteration | A test of a new creative idea vs. a variation (hook, format, offer) of an existing one |
 | KYC | Know your customer: identity verification before a user can deposit |
 
 ## Measurement and tooling

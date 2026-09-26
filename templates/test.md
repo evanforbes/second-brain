@@ -11,6 +11,7 @@ test_type:             # creative | offer | landing-page | app-store | experimen
 channel:               # tiktok | meta | snapchat | google | reddit | x | apple-search-ads | liftoff | moloco | rzr
 product:               # prediction-markets | fantasy
 incumbent: ""          # "[[incumbent-note-or-channel-playbook]]" for what the challenger must beat
+variable:              # concept | iteration (one variable per test)
 hypothesis:
 launch_date:           # YYYY-MM-DD
 target_date:           # YYYY-MM-DD, readout / kill date
@@ -26,24 +27,24 @@ What we believe, and why the challenger should beat the incumbent.
 
 ## Setup
 
-Campaign, ad set, budget split, audience, geo, dates. Relative budget only; no real figures yet.
+Test ramp campaign and BAU campaign (for creative tests, per [[creative-testing-method]]), challenger vs. incumbent, audience, geo, placements, optimization event, dates, budget split (relative until numbers are allowed). Policy check: fantasy or prediction-markets creative ([[ad-policy-matrix]]).
 
 ## Results
 
-Read from AppsFlyer / Hex at `last_verified`. Relative to incumbent: CPFTD, scale, CPI, IPM, CPM, CTR.
+Read from AppsFlyer / Hex at `last_verified`, relative to the incumbent. Scale leads; the diagnostics explain it (CPI = CPM ÷ IPM).
 
 | Metric | Challenger vs incumbent |
 |---|---|
-| CPFTD | |
-| Scale | |
+| Scale (spend absorbed at efficiency) | |
 | CPI | |
 | IPM | |
 | CPM | |
 | CTR | |
+| Install → FTD / CPFTD (quality gate) | |
 
 ## Verdict
 
-One line: scale, kill, or inconclusive, plus confidence and why.
+A Creative lever block per [[reporting-format]]: Saw / Did / Expected / Happened / Call (graduate to BAU, kill, or iterate).
 
 ## Learning
 
