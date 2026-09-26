@@ -51,6 +51,7 @@ Every acronym, internal tool name, and piece of shorthand used in this vault, pl
 | BigQuery | The data warehouse |
 | dbt | Transformation layer that builds warehouse models |
 | Amplitude | Product analytics |
+| Sensor Tower | App intelligence: downloads, rankings, and Ad Intelligence (competitor networks and creatives). Planned API connection |
 | Hightouch (`ht_*`) | Reverse-ETL that delivers backend events to platforms and AppsFlyer |
 | SKAN | Apple SKAdNetwork: private, delayed, aggregated iOS attribution |
 | CV | SKAN conversion value (fine and coarse) |

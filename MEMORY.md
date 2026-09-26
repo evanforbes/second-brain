@@ -12,6 +12,8 @@ Things in flight, with enough context to pick back up. Format: `YYYY-MM-DD: what
 
 - 2026-09-26: Channel playbooks written for all 10 channels plus [[ad-policy-matrix]]. Next: answer the policy open questions (prediction-markets classification per channel) and fill in approvals.
 
+- 2026-09-26: Work-machine setup plan (deferred until the vault moves there): 1) connectors: Slack, Gmail/Calendar, Drive, Hex, AppsFlyer MCP, **Sensor Tower API** (competitor ad intel + app trends); 2) answer P1s in [[appsflyer-underdog-setup-audit]]; 3) fill in legal footprint (states per product) and per-channel approvals in [[ad-policy-matrix]]; 4) backfill historical tests, incumbents, [[learnings]]; 5) build the test-readout skill. Still doable now: file Evan's measurement doc.
+
 ## Facts
 
 Things learned that are not yet written into a canonical note. When a fact clearly belongs in a `docs/` note, promote it there and mark it here as `promoted YYYY-MM-DD to [[the-note]]`.
