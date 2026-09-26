@@ -16,7 +16,7 @@ references: []
 
 The questions that turn general AppsFlyer knowledge into knowledge of Underdog's own setup. Record **settings and decisions only, never figures or internal table names** (CLAUDE.md 7a).
 
-Answers come from **Evan's measurement document** (shared in chat on 2026-09-26; to be filed into `docs/measurement/`). Some are marked *approach*: the document describes how the setup is designed or how Evan would configure it, not a setting read from the account. Confirm those once in the AppsFlyer UI or through the MCP connector's `get_app_settings`.
+Answers come from **Evan's measurement document**, filed as [[measurement-principles]], [[user-value-architecture]], [[attribution-paths]], and [[incrementality-and-mmm]]. Some are marked *approach*: the document describes how the setup is designed or how Evan would configure it, not a setting read from the account. Confirm those once in the AppsFlyer UI or through the MCP connector's `get_app_settings`.
 
 Priorities: **P1** can bias CPFTD or budget decisions right now. **P2** affects accuracy or speed. **P3** is housekeeping.
 

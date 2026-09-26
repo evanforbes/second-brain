@@ -89,7 +89,7 @@ After folding something into its destination, propose wikilinks to related notes
 - **COO update or weekly channel review:** build from `weekly/`, recent `daily/` notes, `tests/`, and [[decision-log]]. Per channel: what is working, what is not, what we are doing about it.
 - **Meeting prep:** read the last note for that meeting in `meetings/`, open items, and anything new in `tests/` or [[decision-log]] since.
 - **Budget moves:** when a reallocation is discussed or made, offer a [[decision-log]] entry with the evidence behind it.
-- **Drafting anything:** search `docs/` first, then `tests/`, then the dated folders. Cite which notes informed the draft.
+- **Any question or draft:** route via `docs/README.md` (master index), search `docs/` first, then `tests/`, then the dated folders. Cite which notes informed the draft.
 - **Unknown topic:** propose creating the note from the right template before writing into a folder that does not fit.
 - **Stale sources:** if a `docs/` note is past its freshness rule, say so before relying on it and offer to re-verify.
 
@@ -118,4 +118,4 @@ Routines are prompts the human runs, not background daemons. Each one is documen
 
 ## 8. Origin
 
-Scaffolded by the bootstrap-second-brain setup file on 2026-09-26. The `knowledge-base-audit` skill lives at `.claude/skills/knowledge-base-audit/`. Run it once this vault passes roughly 30 notes to find out what is missing.
+Scaffolded by the bootstrap setup file on 2026-09-26. The `knowledge-base-audit` skill lives at `.claude/skills/knowledge-base-audit/`. Run it once this vault passes roughly 30 notes to find out what is missing.
