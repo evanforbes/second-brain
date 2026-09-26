@@ -65,8 +65,33 @@ Every acronym, internal tool name, and piece of shorthand used in this vault, pl
 | Holdout / geo lift | Turning spend off in matched markets to measure incremental effect |
 | Measured | Third-party incrementality testing vendor |
 | INCRMNTAL | Always-on incrementality model vendor |
-| Protect360 | AppsFlyer fraud protection |
 | Andromeda | Meta's ad retrieval system; post-Andromeda, creative does most of the targeting |
+| SRN | Self-reporting network: attributes itself when AppsFlyer queries it (Meta, Google, Apple Ads, TikTok, Snap). See [[appsflyer-attribution-model]] |
+| Advanced SRN | An SRN that also measures non-consented iOS users through aggregated privacy measurement (TikTok, Snap) |
+| Link-based network | A partner that reports clicks and impressions through AppsFlyer attribution links (Reddit, Liftoff, Moloco, RZR) |
+| Lookback window | Maximum time from ad engagement to install for the install to be credited to that engagement |
+| Re-attribution window | Period after first install during which a reinstall is not a new install. AppsFlyer default is 90 days |
+| Engaged click / engaged view | Interaction inside an ad (playable, video threshold) without leaving it; ranks with clicks |
+| Enhanced attribution model | AppsFlyer's flooding-aware attribution: only eligible engagements compete |
+| CTIT | Click-to-install time; very short CTIT signals install hijacking |
+| AAP | AppsFlyer Aggregated Advanced Privacy: withholds user-level data for non-consented iOS users |
+| AEM | Meta Aggregated Event Measurement: Meta's modeled iOS measurement |
+| AdAttributionKit | Apple's successor attribution framework alongside SKAN |
+| Conversion Studio | Where the AppsFlyer SKAN CV schema is configured |
+| Fine / coarse CV | SKAN 4 values: fine (64 values, window 1 only) and coarse (low, medium, high, all windows) |
+| CUID | Customer user ID set in the AppsFlyer SDK; maps internal user IDs to AppsFlyer IDs |
+| af_revenue | AppsFlyer revenue parameter; feeds all revenue metrics and partner postbacks |
+| LTV view / activity view | AppsFlyer counting modes: events by install date vs. by event date |
+| My Dashboards | AppsFlyer's analytics UI since legacy dashboards were retired on June 30, 2026 |
+| Creative Optimization | AppsFlyer cross-channel creative reporting with visual asset matching |
+| ROI360 | AppsFlyer cost and revenue aggregation product |
+| Data Locker | AppsFlyer delivery of reports to cloud storage or BigQuery |
+| Protect360 | AppsFlyer fraud protection: real-time blocking plus post-attribution detection. See [[appsflyer-protect360]] |
+| Incrementality factor | Incremental conversions divided by attributed conversions, from an AppsFlyer geo experiment |
+| TBR | Time-based regression, the method behind AppsFlyer geo experiments |
+| AppsFlyer MCP | Beta connector letting Claude query AppsFlyer directly. See [[appsflyer-mcp]] |
+| Web Performance Measurement | AppsFlyer web measurement product replacing PBA |
+| PBA | People-Based Attribution, AppsFlyer's legacy web measurement |
 
 ## Channels and buying
 

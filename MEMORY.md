@@ -8,6 +8,7 @@ Things in flight, with enough context to pick back up. Format: `YYYY-MM-DD: what
 
 - 2026-09-26: File the Underdog operating knowledge from Evan's pasted measurement doc into `docs/measurement/` and `docs/channels/`, frameworks only, no real numbers. Awaiting approval per note.
 - 2026-09-26: Build first skill: test readout ("pull the data on test X, what won?").
+- 2026-09-26: AppsFlyer knowledge base compiled into `docs/measurement/appsflyer/`. Next: answer P1s in [[appsflyer-underdog-setup-audit]], starting with the ASA age-targeting attribution loss (since Sep 1, 2026).
 
 ## Facts
 
@@ -20,6 +21,7 @@ Things learned that are not yet written into a canonical note. When a fact clear
 Rolling log of substantive finished work. Prune past a month.
 
 - 2026-09-26: Vault scaffolded from the bootstrap setup file.
+- 2026-09-26: Crawled 756 AppsFlyer help-center articles to `raw/appsflyer/`; compiled 11 notes plus the `appsflyer-docs` skill.
 
 ## Conversation log
 

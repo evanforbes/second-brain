@@ -77,7 +77,7 @@ Bias toward asking rather than staying silent. Memory offers come at the **end**
 | Gmail | Summarize commitments and partner updates; never paste full threads. | The note it is about; otherwise `daily/` |
 | Google Calendar | Read for meeting prep and daily reconstruction. | `meetings/`, `daily/` |
 | Google Drive / Sheets | Link briefs and readouts; synthesize, do not copy. | `tests/`, `docs/creative/` |
-| Platform docs and rep material | Stage in `raw/`, then compile into the channel playbook. | `docs/channels/<channel>.md` |
+| Platform docs and rep material | Stage in `raw/`, then compile. | `docs/channels/<channel>.md`; AppsFlyer via the `appsflyer-docs` skill to `docs/measurement/appsflyer/` |
 
 After folding something into its destination, propose wikilinks to related notes and **ask before adding them**.
 
@@ -104,7 +104,7 @@ After folding something into its destination, propose wikilinks to related notes
 
 - **No colleague names.** Refer to people by role only: COO, Manager, Associate, creative team, data team, channel rep.
 - **The external job search is separate. Do not include it in this codebase.** Nothing about job searching, interviews, or other companies' hiring goes anywhere in this vault, including `personal/`.
-- **Frameworks now, numbers later.** No real spend, CPFTD, CAC or iCAC, targets, or internal table names in any file until this repo moves to the work machine and Evan lifts this rule. Relative results are fine (for example, "challenger CPFTD roughly 15% better than incumbent"). Show live numbers in chat; do not save them.
+- **Frameworks now, numbers later.** No real spend, CPFTD, CAC or iCAC, targets, or internal table names in any file until this repo moves to the work machine and Evan lifts this rule. Relative results are fine (e.g., "challenger CPFTD ~15% better than incumbent"). Show live numbers in chat; do not save them.
 - **No player-level data.** No PII, account IDs, or individual deposits. Aggregates only; this is regulated real-money gaming.
 
 When in doubt about whether something falls under these constraints, ask before writing it to a file. A question costs a few seconds. A leak into git history is permanent.

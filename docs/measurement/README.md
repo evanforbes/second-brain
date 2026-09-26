@@ -4,4 +4,4 @@ How UA performance is measured and what to trust: AppsFlyer and SKAN setup, app 
 
 ## Index
 
-Notes not yet written.
+- [appsflyer/](appsflyer/README.md): AppsFlyer knowledge base (10 notes plus the setup audit)
