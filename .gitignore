@@ -1,0 +1,20 @@
+# Private notes. Never pushed.
+personal/*
+!personal/.gitkeep
+
+# Raw staging tier. Unprocessed inputs get folded into the vault, then removed.
+raw/*
+!raw/.gitkeep
+
+# Obsidian local state
+.obsidian/
+
+# Claude Code local settings (machine-specific permissions)
+.claude/settings.local.json
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
