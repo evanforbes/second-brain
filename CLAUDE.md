@@ -77,7 +77,7 @@ Bias toward asking rather than staying silent. Memory offers come at the **end**
 | Gmail | Summarize commitments and partner updates; never paste full threads. | The note it is about; otherwise `daily/` |
 | Google Calendar | Read for meeting prep and daily reconstruction. | `meetings/`, `daily/` |
 | Google Drive / Sheets | Link briefs and readouts; synthesize, do not copy. | `tests/`, `docs/creative/` |
-| Platform docs and rep material | Stage in `raw/`, then compile. | `docs/channels/<channel>.md`; AppsFlyer via the `appsflyer-docs` skill to `docs/measurement/appsflyer/` |
+| Platform docs and rep material | Stage in `raw/`, then compile. | `docs/channels/` via `channel-docs` skill; AppsFlyer via `appsflyer-docs` |
 
 After folding something into its destination, propose wikilinks to related notes and **ask before adding them**.
 

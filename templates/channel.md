@@ -6,7 +6,7 @@ created:               # YYYY-MM-DD
 updated:               # YYYY-MM-DD
 owners: []
 tags: []
-channel:               # tiktok | meta | snapchat | google | reddit | apple-search-ads | liftoff | moloco | rzr
+channel:               # tiktok | meta | snapchat | google | reddit | x | apple-search-ads | liftoff | moloco | rzr
 last_verified:         # YYYY-MM-DD
 verified_by:
 related: []

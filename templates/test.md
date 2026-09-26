@@ -8,7 +8,7 @@ owners: []
 tags: []
 test_name:             # per [[naming-taxonomy]]
 test_type:             # creative | offer | landing-page | app-store | experiment
-channel:               # tiktok | meta | snapchat | google | reddit | apple-search-ads | liftoff | moloco | rzr
+channel:               # tiktok | meta | snapchat | google | reddit | x | apple-search-ads | liftoff | moloco | rzr
 product:               # prediction-markets | fantasy
 incumbent: ""          # "[[incumbent-note-or-channel-playbook]]" for what the challenger must beat
 hypothesis:

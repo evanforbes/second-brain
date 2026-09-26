@@ -7,8 +7,8 @@ raw/appsflyer/CHANGES.md. Uses curl because python's SSL certs may be missing.
 """
 import hashlib, html, json, os, re, subprocess, time
 
-B = "https://support.appsflyer.com/api/v2/help_center/en-us"
-OUT = "raw/appsflyer"
+B = os.environ.get("ZD_BASE", "https://support.appsflyer.com/api/v2/help_center/en-us")
+OUT = os.environ.get("ZD_OUT", "raw/appsflyer")
 
 def get(u):
     r = subprocess.run(["curl", "-sf", "--max-time", "60", "-A", "personal-kb-reader/1.0", u],

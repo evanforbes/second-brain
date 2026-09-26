@@ -108,6 +108,28 @@ Every acronym, internal tool name, and piece of shorthand used in this vault, pl
 | rMAX | Reddit campaign optimization beta |
 | Pangle | TikTok's ad network (placement beyond TikTok itself) |
 | RAF | Refer-a-friend |
+| X | X (formerly Twitter) Ads. Channel tag `x` |
+| ACi / ACe | Google App campaigns for installs / for engagement |
+| Audience signals | Google ACi hints about who high-value users are |
+| Advantage+ app campaigns | Meta's automated app install campaigns |
+| Incremental attribution (Meta) | Meta attribution model that optimizes and reports on predicted *caused* conversions |
+| Smart+ | TikTok's automated campaign type (app and web) |
+| SAN | TikTok Self-Attributing Network; replaced the legacy MMP integration on Mar 31, 2025 |
+| AEO | App event optimization: optimize delivery to a post-install event such as FTD (TikTok, Reddit) |
+| EVTA | TikTok engaged view-through attribution: 6+ seconds watched, then a conversion |
+| EVC | Moloco engaged view conversion: 10+ seconds watched, sent to MMPs on the click link |
+| Engaged view (Snap) | 5-second video views that Snap sends to MMPs as clicks (since Nov 2024) |
+| GBB | Snap goal-based bidding |
+| SKOverlay | Apple's in-ad store sheet; Snap's iOS Install Card uses it |
+| Max campaigns | Reddit's automated campaign type (beta) |
+| CPP | Apple custom product page; the basis of Apple Search Ads ad variations |
+| Maximize Conversions (ASA) | Apple Search Ads auto-bidding to a weekly target CPA |
+| Search Match | Apple Search Ads automatic query matching |
+| DCM | CFTC Designated Contract Market; one of the two eligibility routes for Google's prediction-markets ads |
+| NFA | National Futures Association; an NFA-authorized brokerage is Google's other eligibility route |
+| RMG | Real Money Gaming app flag (Moloco registration, Google Play policy) |
+| Cortex | Liftoff's AI bidding models |
+| Vungle | Liftoff's owned supply SDK |
 
 ## Business and market
 
@@ -127,5 +149,5 @@ Every acronym, internal tool name, and piece of shorthand used in this vault, pl
 Flat, lowercase, hyphenated. Only these, until a new one is added here.
 
 - Products: `prediction-markets`, `fantasy`
-- Channels: `tiktok`, `meta`, `snapchat`, `google`, `reddit`, `apple-search-ads`, `liftoff`, `moloco`, `rzr`
+- Channels: `tiktok`, `meta`, `snapchat`, `google`, `reddit`, `x`, `apple-search-ads`, `liftoff`, `moloco`, `rzr`
 - Test types: `creative`, `offer`, `landing-page`, `app-store`, `experiment`
