@@ -28,8 +28,8 @@ Paid spend rose sharply week over week and blended CPFTD (AppsFlyer, first_depos
 - **Call:** CHANGE, cap or pause both until the intent and an expectation are confirmed.
 
 **Efficiency channels (Google, Moloco, Aarki, Liftoff, Snap)**
-- **Saw:** Google, Moloco, Aarki, and Snap are still the lowest CPFTD lines among scaled channels, but each degraded ~120-195% WoW on more spend, and Liftoff ~200% (AppsFlyer, provisional). Spend on Google, Moloco, Aarki, and Liftoff rose roughly 1.7-2.2x.
-- **Did:** Spend scaled across all four (and Snap to a lesser degree).
+- **Saw:** Google, Moloco, and Aarki are still the lowest CPFTD lines among scaled channels (ASA next), but each degraded ~120-195% WoW on more spend. Liftoff (~200% worse) and Snap (~145% worse) sit mid-pack. Spend on Google, Moloco, Aarki, Liftoff, and Snap rose roughly 1.7-2.2x (AppsFlyer, provisional).
+- **Did:** Spend scaled across all five.
 - **Expected:** No expectation set. Marginal CPFTD rises with scale; hold Google and Moloco within ~1.5x of the prior-week level.
 - **Happened:** Partial. Part of the gap is cohort maturity, part is diminishing returns; cannot separate them until the re-pull.
 - **Call:** MAINTAIN spend, re-pull Oct 2, and CHANGE only if the matured gap stays above ~1.5x.
