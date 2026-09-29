@@ -99,13 +99,21 @@ Skipped: no geo cut in this pull. Pull by geo for the Oct 6 review.
 
 ## Offer test (Meta, Sep 22-28)
 
-- **Saw:** Rips is the install engine: CPI ~56% below DM250 and 80-94% below DM1000, DM50, and KYM. But install-to-FTD is roughly half of DM250's, so CPFTD is **at parity with DM250** (~1% apart, on ~150 FTDs each). DM1000 CPFTD is ~2.7x DM250's; DM50 and KYM are ~6x on thin FTD counts (~20).
+- **Saw:** Rips is the install engine: CPI ~56% below DM250 and 80-94% below DM1000, DM50, and KYM. But install-to-FTD is roughly half of DM250's, so CPFTD is **at parity with DM250** (~1% apart, on ~105 install-cohort FTDs each). DM1000 CPFTD is ~2.7x DM250's; DM50 and KYM are ~6x on thin counts (~15 cohort FTDs each).
 - **Did:** Five offer adsets ran in the same campaign, plus a separate Rips campaign launched Sep 25.
 - **Expected:** Rips would win on cost per user, not just cost per install. (Prior expectation not on file.)
 - **Happened:** No on CPFTD, yes on CPI/IPM. The separate Rips campaign is too new to read.
 - **Call:** CHANGE, stop scaling Rips on CPI alone; keep Rips and DM250 as the two live offers, kill DM50 and KYM, and cut DM1000 unless a cohort-quality read says otherwise. Recheck the Rips-only campaign on Oct 2.
 
 **Source conflict:** an earlier read had Rips at CAC ~59% under DM250. That is not what AppsFlyer first_deposit shows (parity). Likely a different event (ht_first_deposit vs first_deposit), window, or maturity. Reconcile before this goes upward.
+
+## Rips-specific campaigns (launched Sep 25, day 1-4)
+
+- **Saw:** Only Meta has enough volume to read, and it does not yet replicate the offer test. Meta's standalone Rips campaign has CPFTD ~2.8x the Rips adset inside the offer test and ~50% above the offer-test campaign overall, but ~50% below Meta BAU. Its CPI is ~1.9x the offer-test Rips adset. TikTok Rips CPI is ~4x the other TikTok UA campaigns. RZR and Liftoff Rips have CPI at or below their channel norm but CPFTD above it. Every FTD count is single or low double digits.
+- **Did:** Rips launched as its own campaign on Meta, TikTok, RZR, and Liftoff, at small budgets.
+- **Expected:** No expectation set. Set one: Rips reaches BAU-parity CPFTD (within ~1.2x of the channel's incumbent) on at least 50 cohort FTDs by Oct 5, or it does not get more budget.
+- **Happened:** Pending: check Oct 2. Directionally no channel beats its incumbent yet.
+- **Call:** MAINTAIN at current budgets, no scale on CPI. Rips retargeting on Remerge is separate: the Active segment is the efficient one and the inactive segments are 2-4x worse.
 
 ## Watch list
 
