@@ -40,7 +40,7 @@ Paid spend rose sharply week over week and blended CPFTD (AppsFlyer, first_depos
 - **Happened:** Yes for Meta and ASA (stable). TikTok efficiency did not improve with the cut.
 - **Call:** MAINTAIN Meta and ASA; TikTok CHANGE to watch (see Creative).
 
-**Data flag:** DV360 carried a large spend line with almost no attributed installs in both weeks. Treat as awareness/view-through with no read on this dashboard; needs an incrementality answer, not a CPFTD one. Blended paid CPFTD excluding DV360: ~47% worse on ~73% more spend.
+Blended paid CPFTD: ~47% worse on ~73% more spend (AppsFlyer, provisional).
 
 ## 2. Creative (live and in test)
 
@@ -111,7 +111,6 @@ Skipped: no geo cut in this pull. Pull by geo for the Oct 6 review.
 
 - X and Reddit spend intent and CPFTD, owner: channel manager (role), decision Oct 2
 - Re-pull matured CPFTD for every channel (cohort maturity), owner: UA lead, Oct 2
-- DV360 attribution / incrementality question, owner: UA lead with the data team, Oct 6
 - Rips-only campaign FTD read (launched Sep 25), owner: UA lead, Oct 2
 - Meta game day parting: spend big enough to read, owner: Meta channel rep, Oct 6
 - Moloco GDP redesign to full game day, owner: Moloco channel rep, Oct 6
