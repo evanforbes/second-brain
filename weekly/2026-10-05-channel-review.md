@@ -58,13 +58,15 @@ Spend roughly halved week over week and blended paid CPFTD (AppsFlyer, first_dep
 
 ## 2. Creative (live and in test)
 
-Read is on CPI and IPM, network-mixed; creative-level CPFTD is not available in this tool. Quality gate on FTD is still owed for every winner.
+Creative-level CPFTD **is** available (get_creative_performance with the first_deposit event; cost over unique FTD users, not the tool's event_cpa column, which uses event count). Last week's note said it was not, so that note's CPI-only creative calls are unverified. Creative rows are creative x channel, judged against the same channel's CPFTD, 0-6 day cohorts, platform attribution.
 
-- **Saw:** The Rips and P5G100 statics lead on volume at CPI ~2-4x better than the animated offer creative: RipsYellow static 9x16 was the best at scale. P5G100Yellow animated 6s took the largest spend share and had ~4x the CPI of the Rips static with ~90% lower IPM. DepositMatch animated variants (Yellow, Blue, DarkBlue, 50) are all 2-3x the CPI of the statics. Graphical v7 shifted to UDX at scale (UDX v7 KYM 6s) and v6 UDX dropped by ~70%; DFS v6 and v7 still have the lowest CPI in the Graphical set. A DFS Dirt Keep Your Milly 6s 16x9 shows CPI ~60% below the Rips statics, which matches the Moloco CTV delivery.
-- **Did:** Offer statics and Graphical v7 got the spend; UDX v6 was cut. WinUpTo10000x, TheDog 60s, and OfficeHours kept running.
-- **Expected:** Last week called for cutting WinUpTo10000x and CFB static, and moving Graphical spend off UDX v6.
-- **Happened:** Partial. v6 shift: yes. WinUpTo10000x: no, still live at CPI far above anything else, and TheDog 60s and OfficeHours are also high-CPI spend.
-- **Call:** CHANGE, cut WinUpTo10000x, TheDog 60s, OfficeHours and the DepositMatch animated set; move the P5G100Yellow animated budget to the Rips and P5G100 statics. Run the FTD quality gate on the static set before treating CPI as a win (the offer copy may attract low-intent installs).
+- **Saw:** The shift to offer-led creative (P5G100 and Rips statics, all on Meta) is working. The static set is ~65-70% of Meta's FTDs and sits ~10-40% better on CPFTD than Meta UA overall; RipsYellow 9x16 is the clear winner at scale, 9x16 beats 1x1 by ~15%, and Rips and P5G100 are at parity. Meta BAU install-to-FTD also rose (~15% to ~23%), so the lower CPI is not low-intent installs. On other channels the same offer creative is average to good vs channel: P5G100 animated is ~45% better than X overall and ~7% worse (Yellow) to ~20% better (DarkBlue) than Snap; DepositMatch50 is ~30% better on X and ~15% worse on Snap.
+- **CPI won, CPFTD did not (Moloco Graphical):** UDX Graphical v7 9x16 is Moloco's largest creative (~28% of its spend) at ~1.9x Moloco's CPFTD despite the lowest CPI and a high IPM. The 4x5 version is at parity but small (~40 FTDs). On TikTok and Snap the Graphical set works (DFS v6/v7 ~15-20% better than TikTok performance CPFTD; UDX v6 ~20% better on Snap).
+- **Still running and bad:** WinUpTo10000x, TheDog 60s, and OfficeHours are each 5-30x channel CPFTD. Aarki static banners are ~10-25% worse than Aarki on a third of its spend. The Liftoff Android native image is ~12% better than Liftoff on ~31% of its spend with near-zero IPM.
+- **CTV creative:** DFS Dirt Keep Your Milly 6s 16x9 (the Moloco CTV creative) has ~80% lower CPFTD than anything else, with no click or impression data on the row. That reinforces the incrementality flag.
+- **Risks:** The winning set is one offer concept in three colors and two ratios, so fatigue risk is high. Statics are Meta-only so format and channel are confounded. Offer-led creative carries bonus cost that CPFTD does not show.
+- **Happened vs last week's calls:** UDX v6 shifted to v7: yes (but v7 is the Moloco problem). WinUpTo10000x cut: no.
+- **Call:** CHANGE. Scale RipsYellow 9x16 and P5G100 9x16 statics on Meta; test the same statics on Snap and X; cut WinUpTo10000x, TheDog 60s, OfficeHours; on Moloco move Graphical v7 spend from 9x16 to 4x5 or to TikTok; add two new offer-led concepts before the Meta set fatigues; fold bonus cost into the creative read.
 
 ## 3. Day parting
 
@@ -114,5 +116,5 @@ Skipped: AppsFlyer geo is US-only (plus unattributed awareness spend). A state c
 - X UDX campaign and Reddit UDX campaign vs 2x blended, owner: channel manager (role), Oct 9
 - Offer Test 2 read (50+ cohort FTDs per adset), owner: UA lead, Oct 9
 - Reconcile Rips CAC definition (first_deposit vs ht_first_deposit) and the earlier blended figure, owner: data team, Oct 8
-- Creative FTD quality gate for the Rips and P5G100 statics, owner: data team, Oct 9
+- Reconcile creative-level FTD counts with campaign-level (and bonus cost of offer-led creative), owner: data team, Oct 9
 - Moloco GDP redesign and Meta game day parting relaunch, owner: channel reps, Oct 9
